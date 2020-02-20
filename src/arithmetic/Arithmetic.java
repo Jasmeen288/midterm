@@ -13,6 +13,7 @@ import java.util.Scanner;
  * execute the code check the output
  * @author sivagamasrinivasan
  * date 02/19
+ * jasmeen kaur
  */
 public class Arithmetic 
 {
@@ -24,7 +25,7 @@ public class Arithmetic
     {
        
         ArithmeticBase r= new ArithmeticBase();
-        double result = r.calculate(1,2);
+        enum Result result = r.calculate(1,2);
         System.out.println("result :" +result); 
     
     }
